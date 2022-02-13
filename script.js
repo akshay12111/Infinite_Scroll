@@ -5,7 +5,7 @@ const loader = document.getElementById('loader');
 let ready = false;
 let imagesLoaded = 0;
 let totalImages = 0;
-const key = `HqehGzwMoMK6iriPXr8S6gnFyjGBXCh_OQRVoeolHs4`;
+const key = "key";
 const count = 12;
 const apiUrl = `https://api.unsplash.com/photos/?client_id=${key}&count=${count}`
 let image_array = []
